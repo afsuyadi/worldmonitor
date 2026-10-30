@@ -30260,6 +30260,7 @@ paths:
             tags:
                 - ScorecardService
             summary: GetFiveFactorScorecard
+            description: GetFiveFactorScorecard returns the cached five-factor scorecard for one country.
             operationId: GetFiveFactorScorecard
             security: []
             parameters:
@@ -30377,6 +30378,7 @@ paths:
             tags:
                 - ScorecardService
             summary: ListFiveFactorScorecards
+            description: ListFiveFactorScorecards returns compact summaries of all cached five-factor country scorecards.
             operationId: ListFiveFactorScorecards
             security: []
             parameters:
@@ -30457,6 +30459,7 @@ paths:
             tags:
                 - ScorecardService
             summary: GetBlocScorecard
+            description: GetBlocScorecard returns the five-factor scorecard for a named bloc or a custom group of 2-30 countries.
             operationId: GetBlocScorecard
             security: []
             parameters:
